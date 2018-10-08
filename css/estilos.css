@@ -1,0 +1,125 @@
+ul{list-style:none;margin-left:0;padding-left:0}
+body h1,body h2,body h3,body h4{font-family:'Metrophobic','sans-serif'}
+h1,h2,h3,h4,p,span,a{text-rendering:optimizeLegibility}
+#logo{padding:20px 0;}
+#logo h1{position:absolute;top:-999999999px}
+#logo img{width:100%}
+header{background:#fbfbfb;background:-o-linear-gradient(270deg, #fbfbfb 0%, #d0d0d0 100%);background:-ms-linear-gradient(270deg, #fbfbfb 0%, #d0d0d0 100%);background:-moz-linear-gradient(270deg, #fbfbfb 0%, #d0d0d0 100%);background:-webkit-linear-gradient(270deg, #fbfbfb 0%, #d0d0d0 100%);border-bottom:10px solid #477961}
+.contenidoGeneral{background:#f0eded;padding-bottom:50px;}
+.contenidoGeneral ul{list-style:disc;padding-left:35px;}
+.contenidoGeneral ul#listaInfoFinanciamiento{margin-top:30px}
+.contenidoGeneral ul li{margin-bottom:10px;}
+.contenidoGeneral ul li:last-child{margin-bottom:0}
+.contenidoGeneral #tituloPaginas{background:#477961;color:#fff;float:none;font-size:17px;margin:0 auto 30px;padding:10px 0;text-align:center;text-transform:uppercase;}
+.contenidoGeneral #tituloPaginas h3{margin-top:0}
+.contenidoGeneral #tituloPaginas p{margin-bottom:0}
+.contenidoGeneral .titulo{color:#000;font-size:19px;text-transform:uppercase}
+.contenidoGeneral .separador{background:#fff;border-bottom:1px solid #9b9b9b;height:2px;margin-bottom:10px;width:100%}
+.contItems{background:#efefef;background:-o-linear-gradient(270deg, #efefef 0%, #c4c4c4 100%);background:-ms-linear-gradient(270deg, #efefef 0%, #c4c4c4 100%);background:-moz-linear-gradient(270deg, #efefef 0%, #c4c4c4 100%);background:-webkit-linear-gradient(270deg, #efefef 0%, #c4c4c4 100%);border:1px solid #fff;-webkit-box-shadow:0 1px 8px 0 rgba(0,0,0,0.4);margin-bottom:15px;padding:5px 10px;position:relative;}
+.contItems .tituloItem{color:#57836d;font-family:sans-serif;font-weight:bold;font-size:14px}
+.contItems p{font-size:13px;margin-bottom:5px;}
+.contItems p:last-child{margin-bottom:0}
+.contForms{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;display:block;margin-bottom:15px;}
+.contForms label{display:block}
+.contForms select{-moz-appearance:none;-webkit-appearance:none;border:1px solid #cbcbcb;color:#4f4f4f;height:35px;padding:0 10px;width:100%;}
+.contForms select#desde{float:left;margin-right:1%;width:49%}
+.contForms select#hasta{float:left;margin-left:1%;width:49%}
+.contForms select#desdeAnio{float:left;margin-right:1%;width:49%}
+.contForms select#hastaAnio{float:left;margin-left:1%;width:49%}
+.contForms #buscarAutos{background:#537c46;background:-o-linear-gradient(270deg, #537c46 0%, #003c00 100%);background:-ms-linear-gradient(270deg, #537c46 0%, #003c00 100%);background:-moz-linear-gradient(270deg, #537c46 0%, #003c00 100%);background:-webkit-linear-gradient(270deg, #537c46 0%, #003c00 100%);border:none;-webkit-border-radius:5px;color:#fff;margin-top:20px;padding:10px 15px;width:100%}
+#formBuscarAutos{background:#fff;border:1px solid #747474;padding-bottom:10px;padding-top:10px}
+#imagenPagina{border-bottom:10px solid #477961;height:100%;position:relative;}
+#imagenPagina img{width:100%}
+#imagenPagina #sloganFinanciamiento{text-align:left;width:350px;}
+#imagenPagina #sloganFinanciamiento h2{color:#fff;margin-top:55px}
+#imagenPagina #sloganFinanciamiento h3{color:#fff}
+#imagenPagina #sloganConsignacion{left:50px;text-align:left;}
+#imagenPagina #sloganConsignacion h2{color:#fff;margin-top:65px}
+#imagenPagina #sloganUbicacion{text-align:left;}
+#imagenPagina #sloganUbicacion h2{color:#fff;margin-top:65px}
+#imagenPagina #sloganContacto{text-align:left;}
+#imagenPagina #sloganContacto h2{margin-top:55px}
+#imagenPagina .sloganPagina{position:absolute;right:70px;top:0;width:430px;}
+#imagenPagina .sloganPagina h2{font-size:26px;line-height:30px}
+#imagenPagina .sloganPagina h3{font-size:20px}
+.formulariosContacto{background:#d2d4d3;padding:10px;}
+.formulariosContacto .contForms:last-child{margin-bottom:0}
+.formulariosContacto label{float:left;margin-bottom:0;margin-top:5px;width:30%}
+.formulariosContacto input{border:none;-webkit-box-shadow:none;-webkit-border-radius:5px;float:left;height:30px;width:70%}
+.formulariosContacto textarea{border:none;-webkit-box-shadow:none;-webkit-border-radius:5px;float:left;height:70px;width:70%}
+.mapas .col-md-6{display:block;float:none;margin:0 auto 20px}
+.mapas a{color:#000;}
+.mapas a:hover{text-decoration:none}
+.mapas .separador{width:70%}
+.mapas .datosSucursal{display:inline-block;padding-left:10px;}
+.mapas .datosSucursal h2{font-size:16px;margin-bottom:5px}
+.mapas .datosSucursal p{margin-bottom:5px;}
+.mapas .datosSucursal p:last-child{margin-bottom:0}
+.mapas iframe{display:inline-block;height:300px;margin-bottom:0;width:70%}
+footer{border-top:10px solid #477961;}
+footer #tituloFooter{background:#477961;color:#fff;float:none;font-size:17px;margin:0 auto;text-align:center;text-transform:uppercase;}
+footer #tituloFooter p{margin:0;padding:10px 0 12px}
+footer #direcciones{margin-top:20px;text-align:center;}
+footer #direcciones .direccion{display:inline-block;margin-right:30px;text-align:center;}
+footer #direcciones .direccion:last-child{margin-right:0}
+footer #direcciones .direccion a{color:#000;text-decoration:none;}
+footer #direcciones .direccion a:hover{color:#000;text-decoration:none}
+footer #direcciones .direccion p{margin-bottom:3px;}
+footer #direcciones .direccion p:last-child{margin-bottom:0}
+footer #menuFooter ul{border-bottom:1px solid #567662;border-top:1px solid #567662;margin-top:30px;text-align:center;}
+footer #menuFooter ul li{display:inline-block;padding:10px;}
+footer #menuFooter ul li a{color:#000;}
+footer #menuFooter ul li a:hover{text-decoration:none}
+footer #menuFooterImagenes ul{border-bottom:1px solid #567662;border-top:none;margin-top:0;text-align:center;}
+footer #menuFooterImagenes ul li{display:inline-block;height:50px;padding:0 10px 10px;}
+footer #menuFooterImagenes ul li img{height:100%}
+footer #menuFooterImagenes ul li a{color:#000;}
+footer #menuFooterImagenes ul li a:hover{text-decoration:none}
+#marcasColor{background:#fff;list-style:none;margin-top:30px;padding-left:0;text-align:center;}
+#marcasColor li{display:inline-block;height:90px;margin-bottom:0;}
+#marcasColor li img{height:100%}
+.bannerIndex{border:1px solid #fff;margin-bottom:39px;width:100%;}
+.bannerIndex:last-child{margin-bottom:0}
+.bannerIndex img{width:100%}
+.bannerContacto{border:1px solid #fff;margin-top:61px;width:80%;}
+.bannerContacto:last-child{margin-top:30px}
+.bannerContacto img{width:100%}
+.marcasFinanciamiento{display:block;margin:25px auto 10px;width:350px}
+.mensajeEmail{display:none;font-family:'Metrophobic','sans-serif';font-size:18px;margin-top:20px;padding:10px}
+.btn-formulario{background:#989898;background:-o-linear-gradient(270deg, #989898 0%, #474747 100%);background:-ms-linear-gradient(270deg, #989898 0%, #474747 100%);background:-moz-linear-gradient(270deg, #989898 0%, #474747 100%);background:-webkit-linear-gradient(270deg, #989898 0%, #474747 100%);border:1px solid #fff !important;-webkit-box-shadow:0 1px 8px 0 rgba(0,0,0,0.4) !important;color:#fff;display:inline-block;float:none;height:auto !important;margin-right:10px;padding:8px 15px;width:auto !important}
+.popupForm{font-weight:bold;text-decoration:underline;text-transform:uppercase;}
+.popupForm:hover{color:#000;text-decoration:underline}
+.tituloPopup{margin-top:0}
+.textoIzquierda{text-align:left}
+.textoDerecha{text-align:right}
+.errorFormulario{color:#f00;display:none;font-size:13px;font-style:italic;margin-top:10px;text-align:right}
+.flecha{cursor:pointer;height:20px;position:absolute;right:10px;top:19px;}
+.flecha img{height:100%}
+.ocultar{display:none}
+.toggleMenu{display:none;background:-o-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-ms-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-moz-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-webkit-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);padding:10px 15px;font-size:16px;text-transform:uppercase;color:#fff}
+.menu{border:2px solid #fff;-webkit-border-radius:10px;-webkit-box-shadow:0 1px 8px 0 rgba(0,0,0,0.4);display:inline-block;margin:20px 0 10px;float:right;list-style:none;*zoom:1}
+.menu:before,.menu:after{content:" ";display:table}
+.menu:after{clear:both}
+.menu ul{list-style:none;width:9em}
+.menu a{font-size:12px;height:100%;color:#fff;text-shadow:none;text-decoration:none}
+header #menu ul li:last-child{-webkit-border-radius:0 5px 5px 0}
+.menu a:hover{text-decoration:none;text-shadow:none}
+.menu li{position:relative;font-family:sans-serif;font-weight:normal;text-transform:uppercase;-o-transition:background 0.3s ease-in-out;-ms-transition:background 0.3s ease-in-out;-moz-transition:background 0.3s ease-in-out;-webkit-transition:background 0.3s ease-in-out;background:#4e7563;background:-o--o-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-o--ms-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-o--moz-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-o--webkit-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-ms--o-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-ms--ms-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-ms--moz-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-ms--webkit-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-moz--o-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-moz--ms-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-moz--moz-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-moz--webkit-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-webkit--o-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-webkit--ms-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-webkit--moz-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);background:-webkit--webkit-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);border-left:1px solid #fff;border-right:1px solid #254a4a;float:left;padding:15px}
+.menu li:first-child{border-left:none;border-right:none;-webkit-border-radius:5px 0 0 5px}
+.menu li:last-child{border-right:none;-webkit-border-radius:0 5px 5px 0}
+.menu li.active{background:#fff;border-left:1px solid #fff;border-right:1px solid #fff}
+.menu li.active a{color:#57836d;text-shadow:none}
+.menu li #certificaciones{display:inline-block;height:50px;margin-right:0;margin-top:35px}
+.menu li #certificaciones img{height:100%;vertical-align:top}
+.menu > li{float:left}
+.menu > li > a{display:block}
+.menu li:hover{background:#fff}
+.menu li#listCert:hover{background:none}
+.menu li a:hover{color:#57836d;text-decoration:none;text-shadow:none}
+.menu li ul{position:absolute;left:-9999px}
+.menu li ul li{line-height:normal;height:auto}
+.menu li ul li a{color:#fff}
+.menu > li.hover > ul{left:0;z-index:100000000}
+.menu li li.hover ul{left:100%;top:0}
+.menu li li a{display:block;background:#1f8ba6;position:relative;z-index:100;border-top:1px solid #18829c}
+.menu li li li a{background:#2c9ab5;z-index:200;border-top:1px solid #1f8ba6}

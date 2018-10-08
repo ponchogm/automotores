@@ -1,0 +1,525 @@
+/* CSS Document */
+.fotoThumb{
+	width:200px;
+	
+	}
+.cadaAuto{
+	min-height:240px;
+	cursor: pointer;
+	padding-left: 20px !important;
+	padding-right: 15px !important;
+}
+/*.cadaAuto{
+	min-height:auto;
+	cursor: pointer;
+	float:left;
+	display: block;
+	}*/
+h3.marcaModeloThumb {
+	color: #666666;
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 0;
+	margin-top: 0;
+	max-height: 48px;
+	min-height: 32px;
+	text-transform: uppercase;
+}
+
+.precioThumb {
+  
+  font-size: 14px;
+  left: 25px;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 3px;
+  padding-top: 3px;
+  position: absolute;
+  top: 10px;
+}
+.precioThumb h4{ margin:0;}
+.precioThumb h4 span.label{ background-color:#333333;}
+.labelVendido{
+	/*left: 25px;*/
+	position: absolute;
+  	/*top: 35px;*/
+}
+.buscador{
+	margin-bottom:20px; background-color:#636971;
+	}
+.kmsThumb{ font-size:11px;}
+
+.edge{ /*background-color:#FFFF00;*/}
+.preview{ /*background-color:#333333;*/}
+
+.info-bg{
+    width: 100%;
+    background-color: #333333;
+    float:left;
+    position: relative;
+    margin: 5px 0 20px 0;
+    margin-top: 10px;
+    display: none;
+	min-height:700px;
+}
+
+.info-cl{
+    height: 100%;
+}
+
+.info-pc{
+    position:absolute;
+	border-bottom: 10px solid #333333;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 0;
+	float: right;
+	top: -10px;
+}
+.btnCerrarPreview{
+	background-color:#666666;
+	float:right;
+	margin-top:10px;
+	border:solid 1px #333333;
+	}
+
+div.flex-viewport ul.slides li{
+	background-image:url('../images/carga.gif');
+	background-repeat:no-repeat;
+	background-position:center; 
+	}
+	
+.colDatosVehiculo{
+	padding-left:0px;
+	}	
+.headerVehiculo{
+	background-color:#999999;
+	padding:15px 10px 5px 10px;
+	margin-bottom:1px;
+	}
+.headerVehiculo a{
+	color: #ffffff !important;
+	font-size: 12px;
+}
+.headerVehiculo a:hover{
+	color: #006633 !important;
+}
+.headerVehiculo a span{
+	margin-top: 5px;
+}
+.headerVehiculo h2{
+	margin:0px 0px 5px 0px;
+	color: #fff;
+	font-size:16px;
+	text-shadow: 0 1px 1px #333333;
+	text-transform:uppercase;
+	}
+.tabsDetalle{
+	background-color:#FFFFFF;
+	font-size:12px;
+	min-height:400px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:5px;
+	}
+.headerVehiculo h3 {
+    margin-top: 0;
+	color:#fff;
+	font-size:14px;
+	text-shadow: 0 1px 1px #333333;
+}
+.textoUsuario{
+	border:solid 1px #DDDDDD;
+	padding:5px;
+	
+	}
+.detalleGeneralTable{
+	font-size:11px;}
+.detalleEquipamientoTable{
+	height:390px;
+	overflow:auto;}
+.direccionDealer{ 
+	font-weight:bold; 
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:0;}
+.fonoDelaer{
+	text-align:center;
+	font-size:14px;}
+.datosDealer{
+	border-top:solid 1px #DDDDDD;
+	margin-bottom:8px;
+	}
+.form-group label.col-lg-2{
+	font-size:11px;
+	padding-right:0px;}
+.anchoInput { padding-right:35px;}	
+.DIVdetalleGeneralTable{ padding:0;}
+.autoVendido{margin-bottom: 10px;}
+.marginBottom10{margin-bottom: 10px;}
+.marginBottom20{margin-bottom: 20px;}
+
+.img-responsive{
+	/*top: -5px;*/
+	max-height:184px;
+	/*position: absolute;
+  	clip: rect(0px, 246px, 180px, 0px);*/
+}
+/*.envThumb{ min-height:180px; text-align:center; padding-left:0;}*/
+.paginacionDiv{margin-right: auto;margin-left: auto; width:auto; text-align:center}
+
+#detalleVehiculo.nav li.active a{background-color: #666666; color: #FFFFFF;}
+
+.fotoLogo{ max-height:90px;}
+	
+.upsInvalido{
+	margin-left: 20px; margin-right: 20px; margin-top: 30px;
+	}	
+.buscador{ background: #477961; padding:10px 0px;}
+.buscador h5 { color:#CCCCCC; font-size:20px; margin-top:0;}
+.buscador div.row div.col-md-3 label{ color:#FFFFFF; font-weight: bolder; font-size: 12px !important; float:left;}
+.buscador { /*border:solid 1px #333333;*/}
+.buscador div.row div.col-md-12 button.btn{ float:right; margin-top:0px;}
+.buscador div.row{margin-bottom:10px;}
+.selectCargando{
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
+	background-image:url(http://www.amotor.cl/vitrina/kaufmann/images/cargaSelect.gif);
+}
+.buscador div.row div.col-md-3 label{ display:none}
+	
+@media (min-width: 280px) {
+	/*Iphone 320px*/
+	.cadaAuto{
+		/*background-color: #CC66FF;*/ /*ROSADO*/
+		height: auto;
+	}
+	.detalleVehiculoBox{
+	margin-right:-3px;
+	margin-left:-3px;
+	padding-top:35px;	
+	}
+.info-bg { float:none;}
+#detalleVehiculo.nav li a{ border:solid 1px #CCCCCC; margin-top:3px; color: #666666;}
+/*CARROUSEL*/
+
+div.flex-viewport ul.slides li img{
+		width:260px;
+max-height: 290px;
+display:block;
+margin:0 auto 0 auto;
+
+		}
+ div.flex-viewport ul.slides li img.carouselThumb{
+	 width:117px;
+	 
+	 }
+.flexslider ul.flex-direction-nav li a.flex-prev, .flexslider ul.flex-direction-nav li a.flex-next {
+	top: 70px;
+	/*display:block;*/
+	}
+.flexslider .flex-direction-nav a {
+ background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("http://www.amotor.cl/images/bg_direction_nav_amotor_mini.png");
+  /*background-image: url("/images/bg_direction_nav_amotor.png");*/
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  height: 80px;
+  width: 40px;
+
+}
+.flexslider .flex-direction-nav .flex-prev {
+  left: 0;
+}
+.flexslider .flex-direction-nav .flex-next {
+	
+  	background-position: 100% 0;
+  	right: 0;
+}
+
+.carouselFlechas .flex-direction-nav a {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("http://www.amotor.cl/images/bg_direction_nav_amotor_mini.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  height: 80px;
+  width: 40px;
+}
+
+
+.carouselFlechas ul.flex-direction-nav li a.flex-next, .carouselFlechas ul.flex-direction-nav li a.flex-prev {
+	top: 19px;
+	}
+
+.carouselFlechas{
+	display:none;
+	}
+.colDatosVehiculo{ margin-left: 15px;}
+.buscador div.row div.col-md-3 label{ display:block}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 480px) {
+	.cadaAuto{
+		/*background-color: #333333;*/ /*GRIS OSCURO*/
+		height: auto;
+    	margin-bottom: 10px;
+	}
+	.info-bg { float:none;}
+	/*.envThumb{ padding-left:20%;}*/
+/*CARROUSEL*/
+.detalleVehiculoBox{
+	padding-top:35px;
+	}
+div.flex-viewport ul.slides li img{
+		width:452px;
+max-height: 450px;
+display:block;margin:0 auto 0 auto;
+
+		}
+#detalleVehiculo.nav li a{ border:solid 1px #CCCCCC; margin-top:3px; color: #666666;}
+
+.flexslider .flex-direction-nav a {width: 122px; height: 247px; margin: -20px 0 0; display: block; background: url(http://www.amotor.cl/images/bg_direction_nav_amotor.png) no-repeat 0 0; position: absolute; top: 90px; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;} 
+
+ div.flex-viewport ul.slides li img.carouselThumb{
+	 width:117px;
+	 
+	 }
+.flexslider ul.flex-direction-nav li a.flex-prev, .flexslider ul.flex-direction-nav li a.flex-next {
+	top: 60px;
+	display: block;
+	}
+
+.carouselFlechas .flex-direction-nav a {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("http://www.amotor.cl/images/bg_direction_nav_amotor_mini.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  height: 80px;
+  width: 40px;
+}
+.carouselFlechas .flex-direction-nav .flex-prev {
+  left: 0;
+}
+.carouselFlechas .flex-direction-nav .flex-next {
+	
+  	background-position: 100% 0;
+  	right: 0;
+}
+.carouselFlechas ul.flex-direction-nav li a.flex-next, .carouselFlechas ul.flex-direction-nav li a.flex-prev {
+	top: 25px;
+	}
+.carouselFlechas{
+	display:block;
+	}
+.colDatosVehiculo{ margin-left: 15px;}
+.buscador div.row div.col-md-3 label{ display:block}
+	}
+
+	
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.detalleVehiculoBox{
+	margin-right:0px;
+	margin-left:0px;	
+	}
+	.cadaAuto{
+		/*background-color: #006633;*/ /*VERDE*/
+    	height: auto;
+	}
+#detalleVehiculo.nav li a{ border:solid 1px #CCCCCC; margin-left:3px; margin-top:0px; color: #666666;}	
+/*.envThumb{ min-height:153px; padding-left:0;}*/
+	/*CARROUSEL*/
+	
+.detalleVehiculoBox{
+	padding-top:35px;
+	}
+div.flex-viewport ul.slides li img{
+	width:680px;
+	max-height: 500px;
+	display:block;margin:0 auto 0 auto;
+
+	/*width:680px;
+	max-height: 500px;
+	display: block-inline;
+	margin:0 auto 0 auto;
+	padding:0px;
+	left:0px !important;
+	float: right;*/
+		}
+ div.flex-viewport ul.slides li img.carouselThumb{
+	 width:120px;
+	 
+	 }
+.flexslider .flex-direction-nav a {width: 122px; height: 247px; margin: -20px 0 0; display: block; background: url(http://www.amotor.cl/images/bg_direction_nav_amotor.png) no-repeat 0 0; position: absolute; top: 90px; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;} 
+
+.flexslider ul.flex-direction-nav li a.flex-prev, .flexslider ul.flex-direction-nav li a.flex-next {
+	display: block;
+	top: 150px;
+	}
+
+.carouselFlechas .flex-direction-nav .flex-prev {
+  left: 0;
+}
+.carouselFlechas .flex-direction-nav a {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("http://www.amotor.cl/images/bg_direction_nav_amotor_mini.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  height: 80px;
+  width: 40px;
+}
+.carouselFlechas .flex-direction-nav .flex-next {
+  background-position: 100% 0;
+  right: 0;
+}
+.carouselFlechas ul.flex-direction-nav li a.flex-prev, .carouselFlechas ul.flex-direction-nav li a.flex-next {
+	top: 25px;
+	}
+.info-bg { float:left;}
+
+.carouselFlechas{
+	display:block;
+	}
+.colDatosVehiculo{ margin-left: 15px;}
+.buscador div.row div.col-md-3 label{ display:block}
+	}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.cadaAuto{
+		height:auto;
+		/*background-color: #CC9900;*/ /*AMARILLO*/
+	}
+.detalleVehiculoBox{
+	margin-right:0px;
+	margin-left:0px;	
+	}
+	/*.envThumb {
+    min-height: 148px;
+    text-align: center;
+}*/
+
+#detalleVehiculo.nav li a{ border:solid 1px #CCCCCC; margin-left:3px; margin-top:0px; color:#666666;}	
+
+/*CARROUSEL*/
+div.flex-viewport ul.slides li img{
+		width:545px;
+		}
+ div.flex-viewport ul.slides li img.carouselThumb{
+	 width:120px;
+	 
+	 }
+.flexslider .flex-direction-nav a {width: 122px; height: 247px; margin: -20px 0 0; display: block; background: url(http://www.amotor.cl/images/bg_direction_nav_amotor.png) no-repeat 0 0; position: absolute; top: 90px; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;} 
+
+.flexslider ul.flex-direction-nav li a.flex-prev, .flexslider ul.flex-direction-nav li a.flex-next {
+	top: 60px;
+	}
+
+.carouselFlechas .flex-direction-nav .flex-prev {
+  left: 0;
+}
+.carouselFlechas .flex-direction-nav a {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("http://www.amotor.cl/images/bg_direction_nav_amotor_mini.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  height: 80px;
+  width: 40px;
+}
+.carouselFlechas .flex-direction-nav .flex-next {
+  background-position: 100% 0;
+  right: 0;
+}
+.info-bg { float:left; min-height:280px;}
+.carouselFlechas ul.flex-direction-nav li a.flex-prev, .carouselFlechas ul.flex-direction-nav li a.flex-next {
+	display: block;
+	top:20px;
+	}
+
+.carouselFlechas{
+	display:block;
+	}
+.colDatosVehiculo{ margin-left: 0px;}	
+/*.envThumb{ min-height:154px; padding-left:0;}*/
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.detalleVehiculoBox{
+	margin-right:0px;
+	margin-left:0px;	
+	}
+	.cadaAuto{
+		height:auto;
+		/*background-color:#FF0000; *//*ROJO*/
+	}
+#detalleVehiculo.nav li a{ border:0; margin-left:0px; margin-top:0px; color: #666666;}
+
+/*CARROUSEL*/	
+	div.flex-viewport ul.slides li img{
+		width:544px;
+		}
+ div.flex-viewport ul.slides li img.carouselThumb{
+	 width:120px;
+	 
+	 }
+.flexslider .flex-direction-nav a {width: 122px; height: 247px; margin: -20px 0 0; display: block; background: url(http://www.amotor.cl/images/bg_direction_nav_amotor.png) no-repeat 0 0; position: absolute; top: 90px; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;} 
+
+.carouselFlechas .flex-direction-nav .flex-prev {
+  left: 0;
+}
+.carouselFlechas .flex-direction-nav a {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("http://www.amotor.cl/images/bg_direction_nav_amotor_mini.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  height: 80px;
+  width: 40px;
+}
+.carouselFlechas .flex-direction-nav .flex-next {
+  background-position: 100% 0;
+  right: 0;
+}
+.info-bg { float:left;}
+.flexslider ul.flex-direction-nav li a.flex-prev, .flexslider ul.flex-direction-nav li a.flex-next {
+	display: block;
+	top:120px;
+	}
+.carouselFlechas ul.flex-direction-nav li a.flex-prev, .carouselFlechas ul.flex-direction-nav li a.flex-next {
+	display: block;
+	top:25px;
+	}
+
+.carouselFlechas{
+	display:block;
+	}
+.colDatosVehiculo{ margin-left: 0px;}
+/*.envThumb{ min-height:154px; padding-left:0;}*/
+.buscador div.row div.col-md-3 label{ display:block; font-weight:lighter;}
+	}

@@ -1,0 +1,1290 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700); 	
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0 auto;
+	text-align:center;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+}
+.container{
+	text-align: left;
+}
+#contenedor {
+	margin:0 auto;
+	text-align:left;
+	width:1000px!important; /* IE7, Firefox, Safari, Opera, etc */
+	width:1000px/*IE6*/;
+}
+#header {
+	width:100%;
+	height:106px;
+	background-color: #fcfcfc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#cfcfcf)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #fcfcfc, #cfcfcf); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #fcfcfc, #cfcfcf); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #fcfcfc, #cfcfcf); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #fcfcfc, #cfcfcf); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	border-bottom: 10px solid #477961;
+}
+#logo-header {
+	width:124px;
+	height:72px;
+	z-index:900;
+	position:absolute;
+	margin-top:76px;
+}
+#logo-header img {
+	border:none;
+}
+#top {
+	width:1139px;
+	margin:0px auto;
+	height:120px;
+}
+#top h1{
+	margin:0px auto !important;
+}
+#top img {
+	border: none;
+	float:left;
+}
+#top h1 a {
+	display: block;
+	height: 56px;
+	text-indent: -9000px;
+	width: 380px;
+	margin:20px 0px 0px 0px;
+	background:#CCC;
+	padding:0px;
+	float:left;
+	background:url("../images/logo-queirolo.png") no-repeat;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#banners {
+	width:100%;
+	height:172px;
+	margin:10px 0px 10px 0px;
+}
+#banners img {
+	float:left;
+	border:none;
+	margin:0px 4px 0px 4px;
+}
+#footer, #mini-footer {
+	border-top: 6px solid #607563;
+	width:100%;
+	height:280px;
+	background-color: #FFFFFF;
+	margin:10px 0px 3px 0px;
+	padding:0px 10px 5px 10px;
+	font-size:12px;
+	text-align: left;
+}
+#content-footer{
+	width: 1139px;
+	margin:0px auto;
+	height: auto;
+}
+#content-footer h1{
+	color: #FFFFFF;
+	font-size: 16px;
+	width: 30%;
+	margin:0px 35%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background: #607563;
+	padding:10px 0px;
+	font-weight: lighter;
+}
+.sucursal{
+	width: 30%;
+	float: left;
+	text-align: center;
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-top: 30px;
+}
+#menu-footer{
+	width: 100%;
+	border-top: 1px solid #607563;
+	border-bottom: 1px solid #607563;
+	float:left;
+	padding:10px 0px;
+	margin:5px;
+}
+#menu-footer ul{
+	list-style: none;
+	padding:0px;
+	width: 60%;
+	margin:0px 20%;
+	float:left;
+}
+#menu-footer ul li{
+	float: left;
+	width: 15.5%;
+	text-align: center;
+}
+#menu-footer ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+#marcas-footer{
+	width:100%;
+	border-bottom: 1px solid #607563;
+	height: 75px;
+	float: left;
+	margin:5px;
+	padding-left: 12%;
+}
+#marcas-footer ul{
+	float: left;
+	list-style: none;
+	width:100%;
+}
+#marcas-footer ul li{
+	float: left;
+	height: 49px;
+	margin: 5px 2%;
+}
+#legal, #mini-legal {
+	width:auto;
+	height:auto;
+	margin:0px 0px 20px 0px;
+	font-size:10px;
+	color:#6b6b6b;
+	padding:0px 5px 0px 5px;
+	float:left;
+	text-align: left;
+}
+#firma{
+	float: right;
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+#interior {
+	width:1000px;
+	height:auto;
+	margin:0px 0px 20px 0px;
+	clear:both;
+	float:left;
+}
+/***************************** HACK PARA GOOGLE CHROME ********************************/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.label{
+		padding: 0.5em 2.5em !important;
+		/*margin-top: 25px;*/
+	}
+	.cbp-vm-view-list .labelVendido{
+		right: 610px;
+		margin-top: -26px;
+	}
+}
+/************************************************************************************/
+
+
+/***********************  HACKS PARA FIREFOX **********************/
+@-moz-document url-prefix() {
+	.label{
+		padding: 0.9em 2.5em !important;
+	}
+	.cbp-vm-view-list .labelVendido{
+		right: 550px;
+		margin-top: -20px;
+	}
+}
+/******************************************************************/
+
+.clearing, .clearfix {
+	clear:both;
+}
+/*- Menu principal--------------------------- */
+
+#menu-principal, .navbar-nav {
+	width:685px;
+	font-size:11px;
+	line-height:normal;
+	height:51px;
+	float:right;
+	/*font-family: 'Open Sans', sans-serif;*/
+	background-color: #4e7563;
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(#507764), to(#395548)); 
+	background-image: -webkit-linear-gradient(top, #507764, #395548); 
+	background-image:    -moz-linear-gradient(top, #507764, #395548); 
+	background-image:      -o-linear-gradient(top, #507764, #395548); 
+	background-image:         linear-gradient(to bottom, #507764, #395548); */
+	border: 2px solid #FFFFFF;
+	-webkit-box-shadow: 0px 1px 8px 0px #000; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.4); /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+
+/**************************** HACK PARA FIREFOX EN MAC ************************/
+html[data-useragent*='Firefox/29.0'][data-platform='MacIntel'] #menu-principal, .navbar-nav{
+	width: 682px;
+	height: 48px;
+}
+/**************************** HACK PARA SAFARI EN MAC ************************/
+html[data-useragent*='Safari/537.75.14'][data-platform='MacIntel'] #menu-principal, .navbar-nav{
+	width: 685px;
+	height: 48px;
+}
+/******************************** HACK IE ***********************************/
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none){
+	#menu-principal, .navbar-nav{
+		width: 684px;	
+	}
+}
+/****************************************************************************/
+#menu-principal ul, .navbar-nav ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#menu-principal li, .navbar-nav li {
+	display:inline;
+	margin:0px;
+	padding:0px;
+}
+#menu-principal a, .navbar-nav a {
+	margin:0px 0px 0px 0px;
+	float:left;
+	padding:0px;
+	text-decoration:none;
+}
+#menu-principal a span, .navbar-nav a span {
+	float:left;
+	display:block;
+	padding:16px 14px 16px 14px;
+	color:#fff;
+	border-right: 2px #fff groove;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin:0px !important;
+}
+
+/*****************************************************/
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #menu-principal a span, .navbar-nav a span {
+	float:none;
+}
+/* End IE5-Mac hack */
+    #menu-principal a:hover span, .navbar-nav a:hover span {
+		color: #607563;
+	}
+#menu-principal li a:hover span, .navbar-nav a:hover{
+	background: #FFFFFF;
+	-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;
+}
+.active{
+	background: #FFFFFF;
+	color: #607563 !important;
+}
+#menu-principal li:first-child a:hover span, .navbar-nav li:first-child a:hover span{
+	border-top-right-radius: 0px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius: 5px;
+	background: #FFFFFF;
+	margin-left:0px !important;
+}
+#menu-principal li:last-child a:hover span, .navbar-nav li:last-child a:hover span{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius: 0px;
+	background: #FFFFFF;
+	margin-right: 0px !important;
+}
+
+
+.navbar-nav a:hover span {
+	color: #607563;
+	background-color: #FFFFFF;
+	-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;
+}
+/* End menu principal*/
+
+
+
+/* cajas izquierda*/
+
+#left {
+	width:190px;
+	height:auto;
+	margin:20px 0px 0px 0px;
+	float:left;
+}
+#left img {
+	border:none;
+}
+#left #menuv {
+	border: 1px solid #CDCDCD;
+	color: #595757;
+	font: 11px Arial, Helvetica, sans-serif;
+	margin: 7px 0 5px 0px;
+	padding: 0 0 0 12px;
+	width: 166px;
+}
+#left #menuv h2 {
+	color: #003990;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 13px 0;
+}
+#menuv li {
+	list-style:none;
+}
+#menuv li a {
+	text-decoration:none;
+	color:#666;
+	background: url("../images/bullet_menu.gif") no-repeat scroll 0 2px transparent !important;
+	display: block;
+	padding: 0 0 13px 13px;
+}
+#menuv li a:hover {
+	color:#069;
+}
+#menuv li a:active {
+	color:#069;
+	text-align: left;
+}
+#menuv li ul li a {
+	background: url("../images/bullet_li_cotizador.jpg") no-repeat 0px 5px transparent !important;
+	color: #999999;
+	text-decoration: none;
+	margin-left:10px;
+	padding: 0px 0px 16px 10px;
+}
+#menuv li ul {
+	display:none;
+	list-style:none
+}
+/*fin cajas izquierda*/
+
+/* cajas derecha*/
+#right {
+	width:780px;
+	height:auto;
+	margin:20px 0px 0px 0px;
+	float:right;
+}
+.version {
+	width:100%;
+	height:auto;
+	margin:25px 0px 0px 0px;
+	float:left;
+}
+.version img {
+	border:none;
+	margin:0px 12px 0px 0px;
+}
+.version h2 {
+	background: none repeat scroll 0 0 #999999;
+	color: #FFFFFF;
+	font: bold 15px Arial, Helvetica, sans-serif;
+	height: 20px;
+	text-align: center;
+	width: 130px;
+}
+.version a.modelo {
+	width:auto;
+	height:auto;
+	margin:20px 0px 0px 0px;
+	float:left;
+	border:1px solid #FFF;
+}
+.version a.modelo:hover {
+	border:1px solid #CCC;
+}
+.info {
+	width:100%;
+	height:30px;
+	margin:0px 0px 0px 0px;
+	background:url(../images/fondo_breadcrums.jpg) repeat-x;
+}
+.info .breadcrumb2 {
+	float: left;
+	padding: 10px 0 0 10px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	width:auto;
+}
+.info .breadcrumb2 p, span {
+	float: left;
+	margin:0 2px;
+}
+.info .breadcrumb2 span a {
+	color:#069;
+	text-decoration:none;
+}
+.info .breadcrumb2 span a:hover {
+	text-decoration: underline;
+}
+.content {
+	width:750px;
+	height:auto;
+	margin:25px 0px 0px 20px;
+	float:left;
+}
+.content p {
+	color:#666;
+}
+.content h2 {
+	background: url("../images/bullet_h2.gif") no-repeat scroll left 3px transparent;
+	color: #666666;
+	font-family: "Arial Narrow", Arial, Helvetica, Sans-Serif;
+	font-size: 17px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	text-align: left;
+}
+.item {
+	width:100%;
+	height:auto;
+	border-top: 1px solid #E5E5E5;
+	float: left;
+	padding: 10px 0;
+}
+.item h3 {
+	background:url(../images/fnd_titulo_tabla_descarga.jpg) no-repeat 0 0;
+	color: #666666;
+	font-size:11px;
+	height:auto;
+	padding:1px 0px 3px 3px;
+	margin:0px 0px 12px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.item img {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #999999;
+	float: left;
+	margin-right: 10px;
+	padding: 1px;
+}
+.listado_pzev {
+	background: url("../images/bullet_pzev.gif") no-repeat scroll left center transparent;
+	font-size: 1.1em;
+	padding: 5px 0 5px 13px;
+}
+/* fin cajas derecha*/
+
+.lineup_descripcion {
+	padding: 0 0 0 30px;
+	position: absolute;
+	top: 200px;
+	width: 350px;
+	z-index: 9999;
+}
+.lineup_descripcion ul li {
+	padding: 0 0 15px;
+	list-style:none;
+}
+.lineup_descripcion h2 {
+	background: none repeat scroll 0 0 transparent;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	font: 24px Arial, Helvetica, sans-serif;
+	margin: 0 0 10px;
+	padding: 0;
+}
+.caja_cont {
+	float: left;
+	padding: 0 20px 30px 0;
+}
+/* formularios*/
+
+.formulario {
+	margin:20px 0px 0px 0px;
+	height:auto;
+	width:340px;
+}
+.formulario p {
+	font-size:12px;
+	margin:5px 0px 6px 0px;
+}
+.formulario .text {
+	padding:2px;
+	margin-top:4px;
+}
+.formulario .iferror {
+	margin:0px 0px 6px 0px;
+}
+select {
+	clear:both;
+	float:left;
+	margin:4px 4px 4px 0px
+}
+.formulario .field {
+	height:auto;
+	width:100%;
+	clear:both;
+}
+.formulario .submit {
+	padding:6px;
+	cursor:pointer;
+	margin:10px 0px 0px 0px;
+	clear:both;
+	float:left;
+}
+.formulario h3 {
+	margin:20px 0px 10px 0px;
+}
+.cotizar {
+	background: url("../images/fnd_cotizar.jpg") no-repeat scroll left top transparent;
+	float: left;
+	height: 144px;
+	padding: 32px 12px 2px 12px;
+	width: 163px;
+}
+.auto_offer {
+	width:200px;
+	height:100px;
+	float:left;
+	top:50px;
+}
+.promo_offer {
+	float:left;
+	margin-left:15px;
+}
+
+.price {
+	float:left;
+	color:#ff8800;
+	font-weight:bold;
+}
+.offer {
+	margin-top:30px;
+	width:600px;
+	float:left;
+}
+.flex-direction-nav ul li{
+	position: none !important;
+}
+.singlebutton{
+	float: right;
+	margin-top:0px !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	float: none !important;
+	margin:1px 0px !important;
+}
+.navbar-toggle .icon-bar{
+	width: 34px !important;
+}
+.navbar-default .navbar-toggle{
+	color: #FFFFFF;
+	border: none !important;
+	margin-left: 10px;
+	width: 94%;
+	background-color: #507764;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#507764), to(#395548)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #507764, #395548); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #507764, #395548); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #507764, #395548); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #507764, #395548); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	border-radius:0px;
+}
+.navbar-default .navbar-toggle h4{
+	margin:0px;
+}
+.navbar-toggle{
+	padding:4px !important;
+	margin-top: 0px !important;
+	margin-right: 5px !important;
+	margin-bottom:0px !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background:-o-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);
+	background:-ms-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);
+	background:-moz-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);
+	background:-webkit-linear-gradient(180deg, #4e7563 0%, #3a574a 100%);
+
+}
+.navbar-nav a span{
+	border: none !important;
+	text-align: left;
+}
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.cbp-vm-view-list .grilla-vehi .singlebutton{
+		margin-top: -70px;
+	}
+}*/
+
+.cbp-vm-view-grid .logo-vitrina{
+	/*right: 33px;*/
+  	position: absolute;
+  	/*bottom: 71px !important;*/
+	width: 78px;
+	height: 34px;
+	text-align: center;
+	margin-top: 128px;
+	margin-left: 130px;
+}
+.cbp-vm-view-list .logo-vitrina{
+	display: none;
+}
+@media (min-width: 1280px){
+	/*.flexslider .logo-ficha{
+		z-index:10;
+		top: 345px !important;
+		right:-40px !important;
+		position:absolute;
+	}*/
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+	.cbp-vm-view-list .labelVendido{
+		right: 270px !important;
+	}
+	#top{
+		width: 100%;
+	}
+	#menu-principal{
+		width: 650px !important;
+/*		margin-right: 45px;*/
+		margin-top: 20px;
+	}
+	#menu-principal a span, .navbar-nav a span{
+		padding: 16px 11px;
+	}
+	#content-footer{
+		width: 980px;
+	}
+	/*.flexslider .logo-ficha{
+		z-index:10;
+		top: 345px !important;
+		right:-40px !important;
+		position:absolute;
+	}*/
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	/************** HACK PARA GOOGLE CHROME **********************/
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.cbp-vm-view-list .labelVendido{
+			right: 260px;
+			margin-top: -26px;
+		}
+	}
+	/**************************************************************/
+	#header{
+		height: 96px !important;
+	}
+	#top{
+		width:100%;
+		height: 103px;
+	}
+	#top h1 a{
+		width: 287px;
+		height: 46px;
+		background-image: url("../images/logo-queirolo-tablet.png");
+		background-repeat: no-repeat;
+		margin-left: 10px;
+	}
+	
+	.container h1{
+		width: 100% !important;
+		margin:0px 0px 30px 0px !important;
+		text-transform: uppercase;
+		font-size: 24px !important;
+	}
+
+/*#menu-principal a span, .navbar-nav a span{
+	padding: 16px 14px 16px 14px;
+}*/
+.navbar-default{
+	background: none !important;
+	border: none !important;
+	border-radius: 0px !important;
+}
+.navbar-nav{
+	width: 640px;
+	height: 51px;
+	margin: 0px auto !important;
+	float: inherit !important;
+	padding:0px !important;
+}
+/**************************** HACK PARA FIREFOX EN MAC ************************/
+html[data-useragent*='Firefox/29.0'][data-platform='MacIntel'] .navbar-nav{
+	width: 685px;
+	height: 51px;
+}
+/**************************** HACK PARA SAFARI EN MAC ************************/
+html[data-useragent*='Safari/537.75.14'][data-platform='MacIntel'] .navbar-nav{
+	width: 685px;
+	height: 51px;
+}
+.navbar-nav>li>a{
+	padding:0px !important;
+}
+.navbar-nav a span{
+	padding: 14px;
+	border-right: 2px #fff groove !important;
+}
+.container{
+	border-top: 10px solid #477961;
+}
+.cbp-vm-view-list .cbp-vm-title{
+	width: 30%;
+}
+.cbp-vm-view-list .singlebutton{
+	/*margin-top: -30px !important;*/
+}
+.cbp-vm-view-list .grilla-vehi{
+	padding: 10px 0px !important;
+}
+#content-footer{
+	width: 100%;
+}
+#content-footer h1{
+	width: 40%;
+	margin:0px 30%;
+}
+#menu-footer{
+	width: 99%;
+}
+#menu-footer ul{
+	width: 70%;
+	margin: 0px 15%;
+}
+#marcas-footer{
+	width: 99%;
+	padding-left: 7% !important;
+}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+	#top h1 a{
+		margin:20px 25%;
+		padding:0px;
+		background-image: url("../images/logo-queirolo.png");
+		background-repeat: no-repeat;
+		width: 380px;
+		height: 56px;
+	}
+	.container h1{
+		width: 100% !important;
+		margin:0px 0px 30px 0px !important;
+		text-transform: uppercase;
+		font-size: 24px !important;
+	}
+}
+@media(max-width: 768px) {
+	#top{
+		width:100% !important;
+		height: 97px !important;
+	}
+	#top h1 a{
+		margin:20px 25%;
+		padding:0px;
+		background-image: url("../images/logo-queirolo.png");
+		background-repeat: no-repeat;
+		width: 380px;
+		height: 56px;
+	}
+	.navbar-default{
+		background: none;
+		border: none;
+		min-height: 25px !important;
+		padding:0px 30px;
+	}
+	.navbar-nav{
+		width: 98.7% !important;
+		margin-top:20px !important;
+	}
+	.navbar-collapse{
+		/*padding:0px !important;*/
+	}
+	.navbar-nav a span{
+		padding: 14px 12px;
+	}
+	.nav>li>a{
+		padding:0px !important;
+		width: 100%;
+	}
+	.container{
+		border-top: 4px solid #607563;
+	}
+	.container h1{
+		width: 100% !important;
+		margin:0px 0px 30px 0px !important;
+		text-transform: uppercase;
+		font-size: 24px !important;
+	}
+	#content-footer{
+		width: 100% !important;
+	}
+	#content-footer h1{
+		width: 50%;
+		margin:0px 25%;
+	}
+	#menu-footer ul{
+		width: 80%;
+		margin:0px 10%;
+	}
+	#marcas-footer{
+		padding-left:0px !important;
+	}
+	#marcas-footer ul li{
+		margin: 5px 1.5%;
+	}
+/*div.flex-viewport ul.slides li{
+	width: 705px !important;
+	right:0px !important;
+	left:5px !important;
+}*/
+/*.flexslider .logo-ficha{
+	z-index:10;
+	top: 438px !important;
+	right:30px !important;
+	position:absolute;
+}*/
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/************** HACK PARA GOOGLE CHROME **********************/
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.cbp-vm-view-list .labelVendido{
+			right: 120px;
+			margin-top: -26px;
+		}
+	}
+	/************************************************************/
+	#top h1 a{
+		width: 380px;
+		height: 56px;
+		background-image: url("../images/logo-queirolo.png");
+		background-repeat: no-repeat;
+		margin:20px 22% !important;
+	}
+	
+.navbar-nav{
+	width: 100%;
+	height: auto;
+}
+#menu-principal a span, .navbar-nav a span{
+	padding: 8px 15px 8px 15px;
+	color: #FFFFFF;
+}
+.nav>li>a{
+	padding: 10px 1px;
+}
+.navbar-collapse{
+	color: #FFFFFF;
+	border: none;
+}
+.navbar-nav li:first-child a:hover span{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius: 0px;
+	background: #FFFFFF;
+	margin-left:0px !important;
+}
+.navbar-nav li:last-child a:hover span{
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius: 5px;
+	background: #FFFFFF;
+	margin-right: 0px !important;
+}
+
+.cbp-vm-view-list .cbp-vm-price{
+	color: #00305A !important;
+}
+.cbp-vm-view-list .cbp-vm-details{
+	float: left;
+}
+.cbp-vm-view-list .cbp-vm-title{
+	width: 30% !important;
+	float: left;
+}
+.cbp-vm-details, .cbp-vm-price{
+	/*float: inherit !important;*/
+}
+.cbp-vm-details{
+	width: 100%;
+}
+.cbp-vm-view-list .singlebutton{
+	margin-top: 0px !important;
+}
+div.flex-viewport ul.slides li{
+	/*width:auto !important;
+	height: auto;
+	float: left;*/
+	left:10px !important;
+	/*position: relative;*/
+
+}
+.flexslider{
+	margin: 0 0 6px; 
+	background: rgba(0,0,0,1); 
+	border: 4px solid #000; 
+	position: relative; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	-o-border-radius: 4px; 
+	border-radius: 4px; 
+	box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+	-o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+	zoom: 1; 
+	height: auto !important;
+}
+.cbp-vm-view-list .labelVendido{
+	right: 125px !important;
+	float: left;
+}
+.flexslider .logo-ficha{
+	z-index:10;
+	top: 438px !important;
+	right:28px !important;
+	position:absolute;
+}
+.cbp-vm-view-grid .logo-vitrina{
+	margin-top: 130px !important;
+}
+.container h1{
+	width: 100% !important;
+	margin:0px 0px 30px 0px !important;
+	text-transform: uppercase;
+	font-size: 24px !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.label{
+		margin-top: 25px;
+	}
+}
+
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+	#top h1 a{
+		width: 380px;
+		height: 56px;
+		background-image: url("../images/logo-queirolo-tablet.png");
+		background-repeat: no-repeat;
+		margin: 20px 10%;
+	}
+
+	.cbp-vm-view-grid .labelVendido .label{
+		margin-top:0px;
+	}
+
+
+	/************** HACK PARA GOOGLE CHROME **********************/
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.cbp-vm-view-list .labelVendido{
+			left: 100px;
+			margin-top: 27px;
+		}
+	}
+	/************************************************************/
+	
+	.cbp-vm-view-list .labelVendido{
+		right: 10px !important;
+		float: right !important;
+		margin-top:-25px !important;
+	}
+	.cbp-vm-view-list .labelVendido .label{
+		margin-top:0px !important; 
+		float: right !important;
+	}
+
+.navbar-header{
+	border-bottom: none;
+}
+.navbar-nav{
+	width: 96% !important;
+	height:auto;
+	margin:20px 2% auto !important;
+	/*padding-bottom: 10px;*/
+}
+.navbar-toggle{
+	width: 100% !important;
+}
+.navbar-nav li{
+	/*background: #00305A;
+	border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;*/
+	width: 100% !important;
+	height: auto;
+	float: left;
+}
+.nav>li>a{
+	padding:0px !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
+	background-color: #ffffff;
+	width: 100% !important;
+	transition: all 500ms ease;
+	-o-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-webkit-transition: all 200ms ease;
+	color: #607563 !important;
+}
+.navbar-inverse .navbar-nav>li>a{
+	width:100% !important;
+	border: none !important;
+}
+.navbar-collapse{
+	padding:0px 0px 10px 0px !important;
+	border: none;
+}
+#menu-principal a span .active, .navbar-nav a span .active{
+	color: #607563 !important;
+}
+#menu-principal a span, .navbar-nav a span{
+	color: #FFFFFF;
+}
+#mini-footer p{
+	font-size:11px;
+}
+.container h1{
+	width: 100% !important;
+	margin:0px 0px 30px 0px !important;
+	text-transform: uppercase;
+	font-size: 24px !important;
+}
+.cbp-vm-view-list .grilla-vehi{
+	padding: 10px 0px !important;
+}
+.cbp-vm-view-list .cbp-vm-details{
+	margin:0px auto !important;
+	float: left;
+	width: 35% !important;
+	padding:0px 10px !important;
+}
+.cbp-vm-view-list .cbp-vm-title{
+	margin:0px auto !important;
+	top: 0px !important;
+	position: static;
+	width: 55% !important;
+}
+.cbp-vm-view-list .cbp-vm-price{
+	width:25% !important;
+	color: #00305A !important;	
+}
+
+.col-xs-12{
+ padding:0px 5px !important;
+ float:left;
+}
+#content-footer h1{
+	width: 80%;
+	margin:0px 10%;
+}
+#menu-footer ul{
+	width: 98%;
+	margin:0px 1%;
+}
+#menu-footer ul li{
+	width:32%;
+	padding:5px 0px;
+}
+#marcas-footer{
+	height: 126px;
+}
+#marcas-footer ul li{
+	margin: 5px 4.2%;
+}
+
+
+/*.flexslider .logo-ficha{
+	z-index:10;
+	top: 275px !important;
+	right:-80px !important;
+	position:absolute;
+}*/
+
+}
+@media screen and (max-width: 320px){
+	/************** HACK PARA GOOGLE CHROME **********************/
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.cbp-vm-view-list .labelVendido{
+			left: 70px;
+			margin-top: 21px;
+		}
+	}
+	/************************************************************/
+	#top{
+		height: 65px !important;
+	}
+	#top h1 a{
+		background-image: url("../images/logo-queirolo-mobile.png");
+		margin:20px 0px auto 70px;
+		width: 161px !important;
+		height: 26px !important;
+	}
+	.navbar-header{
+		height:100%;
+	}
+	.navbar-collapse{
+		padding:0px;
+		overflow:hidden;
+		height: auto;
+		margin-top: 20px;
+		/*background-color: #607563;*/
+		border-radius: 10px;
+		-o-border-radius: 10px;
+		-ms-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border:2px solid #FFFFFF;
+		-webkit-box-shadow: 0px 0px 8px 0px #000; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    	box-shadow: 0px 0px 8px 0px #000; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	}
+	.navbar-default{
+		padding: 0px 20px;
+	}
+	.navbar-toggle{
+		width: 90% !important;
+		padding:0px !important;
+		margin:0px 5%!important;
+	}
+	.navbar-nav{
+		width: 100% !important;
+		height: auto;
+		padding:0px !important;
+		margin:0px auto !important;
+		border: none;
+		border-radius:0px !important;
+	}
+	.navbar-nav li{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 0px 1px 1px 0px;
+		border-radius: 0px;
+		-o-border-radius: 0px;
+		-ms-border-radius: 0px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+	}
+	.navbar-nav>li>a:hover>span{
+		background: #FFF;
+		color: #607563;
+	}
+	.navbar-nav a span{
+		padding: 9px 14px;
+	}
+	.nav>li>a{
+		padding:0px !important;
+	}
+	.navbar-nav>li>a{
+		padding-top: 5px;
+		padding-bottom: 9px;
+		width: 100%;
+		text-align: left;
+	}
+	.cbp-vm-view-list .cbp-vm-details{
+		margin:0px auto !important;
+		float: left;
+		width: 80% !important;
+		padding:0px 10px;
+	}
+	.cbp-vm-view-list .cbp-vm-price{
+		float: left;
+		width: 45% !important;
+	}
+	.cbp-vm-image{
+		margin:0px !important;
+	}
+	.cbp-vm-view-list .cbp-vm-title{
+		width: 75% !important;
+	}
+	.cbp-vm-view-grid .cbp-vm-image{
+		margin:0 auto 10px auto !important;
+	}
+	.gwb_button_fixed{
+		margin:0px !important;
+	}
+	.container h1{
+		width: 100% !important;
+		margin:0px 0px 30px 0px !important;
+		text-transform: uppercase;
+		font-size: 24px !important;
+	}
+	#content-footer h1{
+		width: 90% !important;
+		margin:0px 5%;
+	}
+	.sucursal{
+		width: 100%;
+	}
+	#menu-footer ul li{
+		width: 50%;
+		margin-bottom:10px;
+	}
+	#marcas-footer{
+		height: 250px;
+	}
+	#marcas-footer ul li{
+		margin: 5px 11%;
+	}
+	#mini-legal{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 0px !important;
+	}
+	#firma{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.col-xs-12{
+	 padding:0px 5px !important;
+	}
+	.cbp-vm-view-grid .logo-vitrina{
+		margin-top: 150px;
+		margin-left: 157px;
+	}
+	.flexslider .logo-ficha{
+		top: 165px !important;
+		right:0px !important;
+		width: 120px !important;
+		height: auto !important;
+	}
+	.flexslider .logo-ficha img{
+		width: 100% !important;
+	}
+	.navbar-nav li:first-child a:hover span{
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		border-bottom-right-radius:0px;
+		border-bottom-left-radius: 0px;
+		background: #FFFFFF;
+		margin-left:0px !important;
+	}
+	.navbar-nav li:last-child a:hover span{
+		border-top-right-radius: 0px;
+		border-top-left-radius: 0px;
+		border-bottom-right-radius:5px;
+		border-bottom-left-radius: 5px;
+		background: #FFFFFF;
+		margin-right: 0px !important;
+	}
+}

@@ -1,0 +1,344 @@
+@media (max-width: 1200px) {
+	body #imagenPagina #sloganFinanciamiento h1,
+	body #imagenPagina #sloganConsignacion h1,
+	body #imagenPagina #sloganUbicacion h1,
+	body #imagenPagina #sloganContacto h1 {
+		font-size: 22px;
+		line-height: 24px;
+		margin-top: 22px;
+	}
+	body #imagenPagina .sloganPagina {
+		right: 5px;
+	}
+}
+
+@media (max-width: 1199px) {
+	header .menu li {
+		padding: 14px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+	header #logo {
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	header #logo img {
+		width: 60%;
+	}
+
+	header #menu {
+		text-align: center;
+	}
+
+	header #menu .menu {
+		float: none;
+	}
+
+	.audio {
+		position: inherit !important;
+		overflow: hidden;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.audio audio {
+		position: inherit !important;
+		top: inherit !important;
+		right: inherit !important;
+		margin: 0 auto;
+	}
+
+	.row {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	body #imagenPagina .sloganPagina {
+		position: absolute;
+		right: 20px;
+		top: 0;
+		width: 330px;
+	}
+
+	body #imagenPagina .sloganPagina h2 {
+		font-size: 23px;
+		line-height: 30px;
+	}
+	body #imagenPagina .sloganPagina h2.left {
+		margin-top: 30px !important;
+	}
+	body #imagenPagina .sloganPagina h2.right.contacto {
+		margin-top: 10px !important;
+	}
+
+	body #imagenPagina #sloganFinanciamiento {
+		right: 15px;
+		width: 300px;
+	}
+
+	body #imagenPagina #sloganFinanciamiento h2 {
+		font-size: 20px;
+	}
+
+	body #imagenPagina #sloganFinanciamiento h3 {
+		font-size: 18px;
+		margin-top: 5px;
+	}
+
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+	header #logo {
+		margin-bottom: 20px;
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	header #logo img {
+		width: 60%;
+	}
+
+	.sloganPagina {
+		display: none;
+	}
+
+	.row {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	/* Menu responsive */
+	.active {
+        display: block;
+    }
+    #menu {
+    	margin-bottom: 15px;
+    }
+    .toggleMenu:hover {
+	    color: #fff;
+	    text-decoration: none;
+	}
+    #menu .menu {
+    	float: none;
+    	height: auto;
+    	width: 100%;
+    }
+    #menu .menu > li {
+        float: none;
+        height: auto;
+		line-height: normal;
+		border-left: none;
+		border-right: none;
+    }
+    #menu .menu > li > .parent {
+        background-position: 95% 50%;
+    }
+    #menu .menu li li .parent {
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    #menu .menu ul {
+        display: block;
+        width: 100%;
+    }
+    #menu .menu > li.hover > ul , .menu li li.hover ul {
+        position: static;
+    }
+
+    header #menu ul li:last-child {
+		border-radius: 0 0px 5px 5px !important;
+	}
+
+	.audio {
+		position: inherit !important;
+		overflow: hidden;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.audio audio {
+		position: inherit !important;
+		top: inherit !important;
+		right: inherit !important;
+		margin: 0 auto;
+	}
+
+}
+
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+	header #logo {
+		margin-bottom: 20px;
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	header #logo img {
+		width: 60%;
+	}
+
+	.sloganPagina {
+		display: none;
+	}
+
+	.row {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	/* Menu responsive */
+	.active {
+        display: block;
+    }
+    #menu {
+    	margin-bottom: 15px;
+    }
+    .toggleMenu:hover {
+	    color: #fff;
+	    text-decoration: none;
+	}
+    #menu .menu {
+    	float: none;
+    	height: auto;
+    	width: 100%;
+    }
+    #menu .menu > li {
+        float: none;
+        height: auto;
+		line-height: normal;
+		border-left: none;
+		border-right: none;
+    }
+    #menu .menu > li > .parent {
+        background-position: 95% 50%;
+    }
+    #menu .menu li li .parent {
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    #menu .menu ul {
+        display: block;
+        width: 100%;
+    }
+    #menu .menu > li.hover > ul , .menu li li.hover ul {
+        position: static;
+    }
+
+    header #menu ul li:last-child {
+		border-radius: 0 0px 5px 5px !important;
+	}
+
+	body .mapas .separador {
+		width: 100%;
+	}
+
+    body .mapas iframe {
+		display: inline-block;
+		height: 300px;
+		margin-bottom: 0;
+		width: 100%;
+	}
+
+	body .mapas .datosSucursal {
+		display: block;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 400px) {
+	header #logo {
+		margin-bottom: 20px;
+		padding: 20px 0 5px;
+		text-align: center;
+	}
+
+	header #logo img {
+		width: 60%;
+	}
+
+	.sloganPagina {
+		display: none;
+	}
+
+	.row {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	/* Menu responsive */
+	.active {
+        display: block;
+    }
+    #menu {
+    	margin-bottom: 15px;
+    }
+    .toggleMenu:hover {
+	    color: #fff;
+	    text-decoration: none;
+	}
+    #menu .menu {
+    	float: none;
+    	height: auto;
+    	width: 100%;
+    }
+    #menu .menu > li {
+        float: none;
+        height: auto;
+		line-height: normal;
+		border-left: none;
+		border-right: none;
+    }
+    #menu .menu > li > .parent {
+        background-position: 95% 50%;
+    }
+    #menu .menu li li .parent {
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    #menu .menu ul {
+        display: block;
+        width: 100%;
+    }
+    #menu .menu > li.hover > ul , .menu li li.hover ul {
+        position: static;
+    }
+
+    .audio {
+		position: inherit !important;
+		overflow: hidden;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.audio audio {
+		position: inherit !important;
+		top: inherit !important;
+		right: inherit !important;
+		margin: 0 auto;
+	}
+	
+	body .mapas .separador {
+		width: 100%;
+	}
+
+    body .mapas iframe {
+		display: inline-block;
+		height: 300px;
+		margin-bottom: 0;
+		width: 100%;
+	}
+
+    header #menu ul li:last-child {
+		border-radius: 0 0px 5px 5px !important;
+	}
+
+	body .mapas .datosSucursal {
+		display: block;
+		margin-top: 10px;
+		text-align: center;
+	}
+}

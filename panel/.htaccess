@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "w*.WKk]3ht{R"
+AuthUserFile "/home2/automoto/.htpasswds/public_html/panel/passwd"
+require valid-user
